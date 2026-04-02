@@ -4,7 +4,7 @@ import plotly.graph_objects as go # Importación de plotly.graph_objects como go
 import streamlit as st
 
 # Leer los datos del archivo CSV
-car_data = pd.read_csv('/Users/DasHa/anaconda_projects/Proyecto-7/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # El encabezado
 st.header('Analisis de Anuncios de venta de coches')
